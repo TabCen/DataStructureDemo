@@ -38,8 +38,10 @@ Status ListAdd(SqList &L,ElemType elem);
 Status ListRemoveAt(SqList &L,int i);
 //删除某个元素
 Status ListRemoveElem(SqList &L,ElemType elem);
+
 //插入
 Status ListInsert(SqList &L,ElemType *elem,int i);
+
 //获取
 ElemType ListGetElem(SqList &L,int i);
 //打印
